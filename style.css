@@ -1,0 +1,26 @@
+table {
+    border: 1px solid #e20d79;
+    border-collapse: collapse;
+    text-align: justify;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+th {
+    column-span: 2;
+}
+
+
+tr:nth-child(odd) {
+    background: #333333;
+}
+iframe {
+    border: 2px solid blueviolet;
+    background: lightblue;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
